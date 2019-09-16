@@ -1,7 +1,10 @@
 # 16 sept 2019 collatz.py
 
 # n is the number we will perform Collatz on.
-n = 20
+# n = 20
+
+# Request user input.
+n = int(input("Please enter an integer n: "))
 
 # Keep looping until n = 1.
 # Note: Assumes Collatz conjecture is true.
